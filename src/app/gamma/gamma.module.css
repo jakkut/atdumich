@@ -1,0 +1,14 @@
+#motionDemo {
+	offset-path: path("M1 62C263.429 -17.9703 406.181 -22.0054 651 62C892.442 136.792 1032.92 147.874 1301 62");
+	animation: move 3000ms infinite alternate linear;
+    width: fit-content;
+}
+
+@keyframes move {
+	0% {
+		offset-distance: 0%;
+	}
+	100% {
+		offset-distance: 100%;
+	}
+}
